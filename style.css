@@ -1,0 +1,558 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+
+}
+
+.navbar .logo {
+    color: black;
+    font-weight: bold;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: -1px 8px 29px -3px rgba(0, 0, 0, 0.45);
+
+}
+
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.navbar ul li a {
+    color: black;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover:after {
+    width: 100%;
+}
+
+
+
+
+.menu ul li i {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.main .texts {
+    width: 50%;
+
+    padding: 150px 70px;
+
+}
+
+.texts h1:nth-child(1) {
+    color: orangered
+}
+
+.texts {
+    font-size: 25px;
+}
+
+.texts p {
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+
+
+.main .image {
+    width: 50%;
+
+
+}
+
+.main {
+    display: flex;
+
+}
+
+.image {
+    padding: 40px 150px;
+}
+
+button:nth-child(1) {
+    border: none;
+    background-color: black;
+    padding: 15px 24px;
+    color: floralwhite;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button {
+    margin-top: 30px;
+}
+
+button:nth-child(2) {
+    border: none;
+    background: transparent;
+    padding: 15px 24px;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+button:nth-child(2) i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+button:nth-child(2):hover {
+    background-color: #000;
+    color: floralwhite;
+}
+
+.logos .logo--ipsum {
+    display: flex;
+    height: 10vh;
+    justify-content: space-evenly;
+
+
+
+}
+
+.logos .text--mini {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.paragraph h1 {
+    font-size: 50px;
+}
+
+.paragraph h2 {
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    color: #FF5E69;
+}
+
+.p1 img:nth-last-of-type(1) {
+    margin-bottom: 10px;
+
+
+}
+
+
+.p1 .icon {
+    margin-bottom: 30px;
+}
+
+.p1 h4 {
+    margin-bottom: 30px;
+}
+
+.p1 p {
+    margin-bottom: 30px;
+}
+
+.p1 .list ul li {
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-top: 150px;
+}
+
+.project h3 {
+    color: #B16CEA;
+}
+
+.project h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.b1 button {
+    border: none;
+    background-color: black;
+    padding: 15px 24px;
+    color: floralwhite;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-top: 150px;
+
+}
+
+.cards {
+    display: flex;
+}
+
+.cards .box {
+    width: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 25px -2px rgba(0, 0, 0, 0.75);
+
+}
+
+.box img {
+    width: 400px;
+}
+
+.box img:nth-child(2) {
+    object-fit: cover;
+}
+
+.box h4 {
+    color: #3C46FF;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+.box h3 {
+    margin-top: 10px;
+}
+
+.box p {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.direction {
+    display: flex;
+    justify-content: end;
+    padding: 30px 150px;
+    cursor: pointer;
+    gap: 30px;
+
+}
+
+.direction i {
+    font-size: 20px;
+}
+
+.p3 .t1 {
+    width: 50%;
+}
+
+.text-cards {
+    width: 50%;
+}
+
+.p3 .t2 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    height: 200px;
+    border-bottom: 2px solid rgba(71, 71, 71, 0.122);
+}
+
+
+
+
+.p3 h3 {
+    color: #FFA84B;
+    text-transform: uppercase;
+   
+
+}
+
+.p3 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: floralwhite;
+}
+
+.p3 h2 {
+    color: whitesmoke;
+}
+
+.p3 p {
+    margin-top: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.p3 {
+    margin-top: 80px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-container {
+    padding: 0 90px;
+    display: flex;
+    width: 100%;
+ 
+}
+
+.card-text {
+    background-color: #fff;
+}
+
+#section {
+    position: relative;
+    
+}
+
+.p3 .overlay {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background-color: rgb(0, 0, 0);
+    top: -20%;
+    z-index: -1;
+}
+
+.t2 h2 {
+    margin-top: 15px;
+}
+
+.p4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px;
+    margin-top: 150px;
+}
+
+.left h4 {
+    color: #FF5E69;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.image-cards {
+    padding: 0 90px;
+    width: 100%;
+    height: 526px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.narrow {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.narrow img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.narrow-img {
+    height: 47.5%;
+}
+
+.narrow-img img {
+    height: 100%;
+}
+
+.wide {
+    width: 40%;
+}
+
+.wide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.p5 {
+    padding: 150px 90px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.p5 .education {
+    width: 50%;
+
+}
+
+.p5 .work {
+    width: 50%;
+
+}
+
+.p5 .logoeducation {
+    margin-bottom: 50px;
+}
+
+.p5 .logoeducation img {
+    width: 180px;
+    height: 30px;
+}
+
+.empty {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.085);
+    width: 100%;
+    height: 2px;
+    left: 0;
+    margin-top: 50px;
+
+
+}
+
+.p6 .text-1 h2 {
+    text-transform: uppercase;
+    color: #4353FF;
+    margin-bottom: 20px
+}
+
+.p6 .text-1 h1 {
+    font-size: 50px
+}
+
+.p6 {
+    padding: 90px 90px;
+}
+
+.image-text {
+    display: flex;
+}
+
+.image-text .image-boy {
+    padding: 0 90px;
+    width: 50%;
+
+}
+
+.textjade {
+    width: 50%;
+}
+
+.textjade h1 {
+    margin-top: 30px;
+    font-size: 40px;
+
+}
+
+.john {
+    margin-top: 150px;
+}
+
+.fag {
+    text-align: center;
+    margin-top: 200px;
+    width: 100%;
+}
+
+
+.fag h5 {
+    text-transform: uppercase;
+    color: #FF8A56;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+
+
+
+}
+
+.infobox1 {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    row-gap: 40px;
+
+}
+
+.infobox2 {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.empty2 {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.277);
+    display: flex;
+    width: 60%;
+    height: 2px;
+
+}
+
+.end {
+    width: 100%;
+    padding: 150px 90px;
+
+
+
+}
+
+.end h1:nth-child(2) {
+    color: #3C46FF;
+}
+
+.portfolio {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    row-gap: 10px;
+    margin-top: 60px;
+
+}
